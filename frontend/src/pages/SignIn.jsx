@@ -48,7 +48,7 @@ function SignIn() {
         onSubmit={handleSignUp}
       >
         <h1 className="text-white text-[30px] font-semibold mb-[30px]">
-          Register to <span className="text-blue-500">Virtual Assistant</span>
+          LOGIN
         </h1>
         <input
           type="email"

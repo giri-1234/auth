@@ -44,7 +44,7 @@ function SignUp() {
     >
       <form className="w-[90%] h-135 max-w-110 bg-[#00000062] backdrop-blur shadow-lg shadow-black flex flex-col items-center justify-center gap-6 p-6 rounded-2xl px-[30px]" onSubmit={handleSignUp}>
         <h1 className="text-white text-[30px] font-semibold mb-[30px]">
-          Register to <span className="text-blue-500">Virtual Assistant</span>
+          REGISTER
         </h1>
         <input
           type="text"

@@ -13,11 +13,19 @@ function App() {
   return (
     <>
     <Toaster />
-    <Routes>
-         <Route path="/" element={userData ? <Home /> : <Navigate to={"/signin"} />} />
-      <Route path="/signin" element={ <SignIn />} />
-      <Route path="/signup" element= {<SignUp />}  />
-    </Routes>
+   <Routes>
+        <Route 
+           path="/" 
+           element={userData ? <Home /> : <Navigate to="/signin" />} 
+        />
+        <Route 
+           path="/signin" 
+           element={!userData ? <SignIn /> : <Navigate to="/" />} 
+        />
+        <Route path="/signup" element={<SignUp />} />
+      </Routes>
+
+  
     </>
   )
 }
